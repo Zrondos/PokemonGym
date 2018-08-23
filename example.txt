@@ -1,10 +1,8 @@
 
-Hello world kevin wong
 
-<<<<<<< HEAD
 Hello world kevin and zach rondos
-=>
-=======
+
 Hello world kevin and zach
->>>>>>> 7c9afa04046ebc1a9ae11ecd975f22be37da2b36
+
+=>
 
