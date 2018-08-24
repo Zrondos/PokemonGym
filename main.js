@@ -7,11 +7,17 @@ class Gym{
 
 let pokemonGym=new Gym("Elite 2")
 pokemonGym.trainers.push(pokemonTrainer)
-pokemonGym.trainers.push(newTrainer)
-console.log(pokemonGym.trainers[0].all())
+
+function renderGym(){
+    console.log(pokemonGym.trainers[0].all()[0])
+}
+delayAxios(pokemonTrainer,renderGym)
+
+// pokemonGym.trainers.push(newTrainer)
+
 // pokemonGym.trainers.push(trainer1)
 // pokemonGym.trainers.push(trainer2)
-
+// console.log(pokemonGym)
 // class Trainer{
 //     constructor(name){
 //     this.name=name;

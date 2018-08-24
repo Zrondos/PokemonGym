@@ -41,7 +41,7 @@ let pokemonTrainer = new Trainer("Pokemon Master")
 let ninetalesCall = axios.get('https://fizal.me/pokeapi/api/38.json')
 let garchompCall = axios.get('https://fizal.me/pokeapi/api/445.json')
 let tapuKokoCall = axios.get('https://fizal.me/pokeapi/api/785.json')
-
+function delayAxios(object,afterFunction){
 axios.all([ninetalesCall, garchompCall, tapuKokoCall])
 .then(function (responses) {
     let ninetales = new Pokemon(responses[0].data)
@@ -107,5 +107,7 @@ axios.all([ninetalesCall, garchompCall, tapuKokoCall])
             stats=document.getElementsByClassName("statsList")
             stats[0].appendChild(Speed)
         }
-
+        afterFunction(object)
 });
+
+}
