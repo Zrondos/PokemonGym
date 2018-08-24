@@ -81,46 +81,7 @@ axios.all([ninetalesCall, garchompCall, tapuKokoCall,snorlaxCall,umbreonCall,gya
     function displayAbilities(pokemon){
         abilities=pokemon.abilities;
     }
-    function displayStats(pokemon){
-
-            let hpElement=document.createElement("li");
-            var hp=document.createTextNode("Hp:"+pokemon.Hp)
-            hpElement.appendChild(hp);
-            stats=document.getElementsByClassName("statsList")
-            stats[0].innerHTML = " ";
-            stats[0].appendChild(hpElement)
-            ////display HP stats
-            let AttackElement=document.createElement("li");
-            var Attack=document.createTextNode("Attack:"+pokemon.Attack)
-            AttackElement.appendChild(Attack);
-            stats=document.getElementsByClassName("statsList");
-            stats[0].appendChild(AttackElement)
-            ////display Defense stats
-            let DefenseElement=document.createElement("li");
-            var Defense=document.createTextNode("Defense:"+pokemon.Defense)
-            DefenseElement.appendChild(Defense);
-            stats=document.getElementsByClassName("statsList")
-            stats[0].appendChild(DefenseElement)
-            ////display Special Attack stats
-            let SpecialAttackElement=document.createElement("li");
-            var SpecialAttack=document.createTextNode("SpecialAttack:"+pokemon.SpecialAttack)
-            SpecialAttackElement.appendChild(SpecialAttack);
-            stats=document.getElementsByClassName("statsList")
-            stats[0].appendChild(SpecialAttackElement)
-            ////display Special Defense stats
-            let SpecialDefenseElement=document.createElement("li");
-            var SpecialDefense=document.createTextNode("SpecialDefense:"+pokemon.SpecialDefense)
-            SpecialDefenseElement.appendChild(SpecialDefense);
-            stats=document.getElementsByClassName("statsList")
-            stats[0].appendChild(SpecialDefenseElement)
-            ////display Speed stats
-            let SpeedElement=document.createElement("li");
-            var Speed=document.createTextNode("Speed:"+pokemon.Speed)
-            SpeedElement.appendChild(Speed);
-            stats=document.getElementsByClassName("statsList")
-            stats[0].appendChild(Speed)
-        }
-        afterFunction(object)
+    afterFunction(object)
 });
 
 }
