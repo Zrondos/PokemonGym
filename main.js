@@ -19,11 +19,11 @@ function renderGym(){
     //         var hp=document.createTextNode("Hp:"+pokemon.Hp)
     //         hpElement.appendChild(hp);
     // console.log(pokemonGym.trainers[0].all()[0])
-<<<<<<< HEAD
+
    
     console.log(pokemonGym.trainers)
 }
-=======
+
     // console.log(pokemonGym.trainers)
     function displayStats(pokemon){
         let nameElement=document.createElement("li");
@@ -81,7 +81,7 @@ function renderGym(){
     document.getElementById("button5").addEventListener("click", function(){displayStats((pokemonGym.trainers[1].myPokemon[2]))});
     }
 
->>>>>>> da0828496e715f46be560f45c974ef159129ac29
+
 delayAxios(pokemonGym,renderGym)
 
 
