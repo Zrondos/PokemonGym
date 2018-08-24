@@ -1,0 +1,276 @@
+[33mcommit 8381f56eb2dadb7952931a7a0eb42cc6f8ab7a71[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: kevin wong <kevinwong247@gmail.com>
+Date:   Fri Aug 24 17:47:15 2018 -0400
+
+    fix
+
+[33mcommit cd46aead27548b2d30088ee2136e21d32b697de5[m[33m ([m[1;32mkevinbranch[m[33m)[m
+Merge: 04f8200 086be47
+Author: Zachary Rondos <40893282+Zrondos@users.noreply.github.com>
+Date:   Fri Aug 24 15:28:27 2018 -0400
+
+    Merge pull request #12 from Zrondos/zachsbranch
+    
+    comitting
+
+[33mcommit 086be47fc6de9794f0ba746228dd922e731d234b[m
+Author: zrondos <zrondos@github.com>
+Date:   Fri Aug 24 15:27:25 2018 -0400
+
+    comitting
+
+[33mcommit 04f82007079a8462032e863cb147193b17a704ef[m
+Merge: dec4354 18509bb
+Author: Zachary Rondos <40893282+Zrondos@users.noreply.github.com>
+Date:   Fri Aug 24 15:04:29 2018 -0400
+
+    Merge pull request #11 from Zrondos/zachsbranch
+    
+    Combining files
+
+[33mcommit 18509bb86203e6f520e7e9d9ffdff4a2a165e43c[m
+Author: zrondos <zrondos@github.com>
+Date:   Fri Aug 24 15:03:59 2018 -0400
+
+    Combining files
+
+[33mcommit dec4354828e613ab8bffca8ba484833e44c29aaf[m
+Merge: e89e332 e65f419
+Author: kevin wong <kevinwong247@gmail.com>
+Date:   Fri Aug 24 15:03:10 2018 -0400
+
+    Merge pull request #10 from Zrondos/kevinbranch
+    
+    added kevin.js
+
+[33mcommit e65f4190ad4c57dd34a3a200e727f0f479b3384d[m[33m ([m[1;31morigin/kevinbranch[m[33m)[m
+Author: kevin wong <kevinwong247@gmail.com>
+Date:   Fri Aug 24 15:02:07 2018 -0400
+
+    added kevin.js
+
+[33mcommit e89e3323b3eb867ede47906c03fd291f5478bf8b[m
+Merge: 8054ffb b6bbf28
+Author: Zachary Rondos <40893282+Zrondos@users.noreply.github.com>
+Date:   Fri Aug 24 13:49:18 2018 -0400
+
+    Merge pull request #9 from Zrondos/zachsbranch
+    
+    Added new js file. Please add yours
+
+[33mcommit b6bbf2811ef6809ff0d694ba38d057735e5348f4[m
+Author: zrondos <zrondos@github.com>
+Date:   Fri Aug 24 13:48:42 2018 -0400
+
+    Added new js file. Please add yours
+
+[33mcommit 8054ffb361dbfe6c4960157511baaa77edeae891[m
+Merge: 4013650 ff42bf5
+Author: Zachary Rondos <40893282+Zrondos@users.noreply.github.com>
+Date:   Fri Aug 24 13:22:16 2018 -0400
+
+    Merge pull request #8 from Zrondos/zachsbranch
+    
+    Outline for HTML
+
+[33mcommit ff42bf5ec700d10ea07b08a89a65fab3bf29649c[m
+Author: zrondos <zrondos@github.com>
+Date:   Fri Aug 24 13:20:13 2018 -0400
+
+    Outline for HTML
+
+[33mcommit 401365048d89a548220d41b20dffe38f0068e6ad[m
+Merge: bd3d0f7 fd39da3
+Author: Zachary Rondos <40893282+Zrondos@users.noreply.github.com>
+Date:   Fri Aug 24 12:10:25 2018 -0400
+
+    Merge pull request #7 from Zrondos/zachsbranch
+    
+    Added JS and HTML file
+
+[33mcommit fd39da360dcb488b4259df7fc3b2c92db34d7dd6[m
+Author: zrondos <zrondos@github.com>
+Date:   Fri Aug 24 12:09:09 2018 -0400
+
+    Added JS and HTML file
+
+[33mcommit bd3d0f72d4ee8b868a7318ac1a4201ea7b7a46d4[m
+Merge: d5ebc9d 6f25837
+Author: kevin wong <kevinwong247@gmail.com>
+Date:   Fri Aug 24 11:06:14 2018 -0400
+
+    Merge pull request #5 from Zrondos/kevinbranch
+    
+    second change
+
+[33mcommit 6f25837534a4379be0b56bbae3d47db70889b03c[m
+Merge: 6b712db f332a9c
+Author: kevin wong <kevinwong247@gmail.com>
+Date:   Fri Aug 24 11:03:05 2018 -0400
+
+    fixing
+
+[33mcommit 6b712dbea60bbc30040302986b667c5bc7e7fe62[m
+Author: kevin wong <kevinwong247@gmail.com>
+Date:   Fri Aug 24 10:57:02 2018 -0400
+
+    next change
+
+[33mcommit b5c7c5b63e90e89965a37983c90513846f14115d[m
+Merge: 6e1c3a9 d5ebc9d
+Author: kevin wong <kevinwong247@gmail.com>
+Date:   Fri Aug 24 10:55:48 2018 -0400
+
+    new changes
+
+[33mcommit d5ebc9d4d562c06833e10152ad6ca32a130e2955[m
+Merge: d8ad5e6 3961740
+Author: Zachary Rondos <40893282+Zrondos@users.noreply.github.com>
+Date:   Fri Aug 24 10:50:29 2018 -0400
+
+    Merge pull request #6 from Zrondos/zachsbranch
+    
+    another change
+
+[33mcommit 6e1c3a9b4943e4e2521e741fb9bb3250ebd641ca[m
+Merge: fee745b d8ad5e6
+Author: kevin wong <kevinwong247@gmail.com>
+Date:   Fri Aug 24 10:45:03 2018 -0400
+
+    change back
+
+[33mcommit 39617402625e4790a619e2597bbc5c66c8035b04[m
+Author: zrondos <zrondos@github.com>
+Date:   Fri Aug 24 10:35:47 2018 -0400
+
+    another change
+
+[33mcommit f332a9cadf2ef7f82bcdc24deb07df13f2874da6[m
+Merge: fee745b d8ad5e6
+Author: Zachary Rondos <40893282+Zrondos@users.noreply.github.com>
+Date:   Fri Aug 24 10:31:38 2018 -0400
+
+    Merge branch 'master' into kevinbranch
+
+[33mcommit fee745b4211bf81f7664d6e3287b19f286a576a3[m
+Author: kevin wong <kevinwong247@gmail.com>
+Date:   Fri Aug 24 10:29:53 2018 -0400
+
+    second change
+
+[33mcommit d8ad5e670e94176a2ce05d77cbd5aae365158b07[m
+Merge: 4090dc3 c2dbd82
+Author: Zachary Rondos <40893282+Zrondos@users.noreply.github.com>
+Date:   Fri Aug 24 10:15:36 2018 -0400
+
+    Merge pull request #4 from Zrondos/zachsbranch
+    
+    First change of the day
+
+[33mcommit c2dbd827cd1afbc4b26346cd4c3b87c52160110f[m
+Author: zrondos <zrondos@github.com>
+Date:   Fri Aug 24 10:12:29 2018 -0400
+
+    First change of the day
+
+[33mcommit 4090dc342e59df5e2373e792722e56b4d222bb36[m
+Merge: 23da309 ad808b4
+Author: Zachary Rondos <40893282+Zrondos@users.noreply.github.com>
+Date:   Thu Aug 23 18:12:01 2018 -0400
+
+    Merge pull request #3 from Zrondos/zachsbranch
+    
+    I want to go home
+
+[33mcommit ad808b4f06d3ca3b07daaf5106c6243d9121ba7b[m
+Author: zrondos <zrondos@github.com>
+Date:   Thu Aug 23 18:10:50 2018 -0400
+
+    I want to go home
+
+[33mcommit 23da309fa667e30e5ae569338458d57573e0702d[m
+Merge: c011af5 30e7153
+Author: kevin wong <kevinwong247@gmail.com>
+Date:   Thu Aug 23 18:06:17 2018 -0400
+
+    fixing
+
+[33mcommit c011af5d9e1bf40aa22d2143a01ca2574ffcf462[m
+Author: kevin wong <kevinwong247@gmail.com>
+Date:   Thu Aug 23 18:04:16 2018 -0400
+
+    smileface
+
+[33mcommit 30e7153cd763ee83c1bed7dcc749092edade8f97[m
+Author: kevin wong <kevinwong247@gmail.com>
+Date:   Thu Aug 23 18:01:36 2018 -0400
+
+    Update example.txt
+
+[33mcommit 2c7931fc4ecb238d9fb8db9c6f8c711a2357f3b7[m
+Merge: b98ca00 7c9afa0
+Author: kevin wong <kevinwong247@gmail.com>
+Date:   Thu Aug 23 17:59:10 2018 -0400
+
+    fixing
+
+[33mcommit b98ca0065ea84512fb821cb4f9bd0e44f8915012[m
+Author: kevin wong <kevinwong247@gmail.com>
+Date:   Thu Aug 23 17:53:27 2018 -0400
+
+    add smile face
+
+[33mcommit aa1d99fd6560f6f46633e8aef4dcb6fc91d8450a[m
+Author: kevin wong <kevinwong247@gmail.com>
+Date:   Thu Aug 23 17:52:19 2018 -0400
+
+    added lastname
+
+[33mcommit 7c9afa04046ebc1a9ae11ecd975f22be37da2b36[m
+Merge: b83a5ff ffd411f
+Author: kevin wong <kevinwong247@gmail.com>
+Date:   Thu Aug 23 17:48:21 2018 -0400
+
+    Merge pull request #2 from Zrondos/kevinbranch
+    
+    add last name
+
+[33mcommit ffd411fed404b15ea0b349e2eb797e64340d82dc[m
+Merge: 05c9b00 b83a5ff
+Author: kevin wong <kevinwong247@gmail.com>
+Date:   Thu Aug 23 17:48:12 2018 -0400
+
+    Merge branch 'master' into kevinbranch
+
+[33mcommit b83a5ff661812eba1011869cb1f47fae826f38e7[m
+Merge: 24fb537 5d1dbc2
+Author: Zachary Rondos <40893282+Zrondos@users.noreply.github.com>
+Date:   Thu Aug 23 17:46:35 2018 -0400
+
+    Merge pull request #1 from Zrondos/zachsbranch
+    
+    added my name
+
+[33mcommit 05c9b0091451ea9781fb04e509a34467d409ee08[m
+Author: kevin wong <kevinwong247@gmail.com>
+Date:   Thu Aug 23 17:43:44 2018 -0400
+
+    add last name
+
+[33mcommit 5d1dbc20ef364e909facb3156e089dd4a6a34db5[m
+Author: zrondos <zrondos@github.com>
+Date:   Thu Aug 23 17:43:39 2018 -0400
+
+    added my name
+
+[33mcommit 24fb537e02368fa3cd2488c4dd9de0e2541df83f[m
+Author: kevin wong <kevinwong247@gmail.com>
+Date:   Thu Aug 23 17:39:55 2018 -0400
+
+    fixing
+
+[33mcommit 4cccf7a110ee4a54d67c7c717025ab6dcaab1a8f[m
+Author: zrondos <zrondos@github.com>
+Date:   Thu Aug 23 17:17:49 2018 -0400
+
+    first commit
