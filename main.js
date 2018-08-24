@@ -7,6 +7,10 @@ class Gym{
 
 let pokemonGym=new Gym("Elite 2")
 
+let x = document.createElement("div")
+x.innerHTML = "hello"
+body.appendChild(x)
+
 
 function renderGym(){
     pokemonGym.trainers.push(ZachTrainer)
@@ -15,6 +19,7 @@ function renderGym(){
     //         var hp=document.createTextNode("Hp:"+pokemon.Hp)
     //         hpElement.appendChild(hp);
     // console.log(pokemonGym.trainers[0].all()[0])
+   
     console.log(pokemonGym.trainers)
 }
 delayAxios(pokemonGym,renderGym)
