@@ -6,12 +6,19 @@ class Gym{
 }
 
 let pokemonGym=new Gym("Elite 2")
-pokemonGym.trainers.push(pokemonTrainer)
+
 
 function renderGym(){
-    console.log(pokemonGym.trainers[0].all()[0])
+    pokemonGym.trainers.push(ZachTrainer)
+    pokemonGym.trainers.push(KevinTrainer)
+    // let hpElement=document.createElement("li");
+    //         var hp=document.createTextNode("Hp:"+pokemon.Hp)
+    //         hpElement.appendChild(hp);
+    // console.log(pokemonGym.trainers[0].all()[0])
+    console.log(pokemonGym.trainers)
 }
-delayAxios(pokemonTrainer,renderGym)
+delayAxios(pokemonGym,renderGym)
+
 
 // pokemonGym.trainers.push(newTrainer)
 

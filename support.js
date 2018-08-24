@@ -36,23 +36,36 @@ class Pokemon{
         this.abilities=abilityArray
     }
 }
-let pokemonTrainer = new Trainer("Pokemon Master")
+let ZachTrainer = new Trainer("Orlando")
+let KevinTrainer = new Trainer("Zak")
 //Axios Call for Ninetales
 let ninetalesCall = axios.get('https://fizal.me/pokeapi/api/38.json')
 let garchompCall = axios.get('https://fizal.me/pokeapi/api/445.json')
 let tapuKokoCall = axios.get('https://fizal.me/pokeapi/api/785.json')
+let snorlaxCall = axios.get("https://fizal.me/pokeapi/api/143.json")
+let umbreonCall = axios.get("https://fizal.me/pokeapi/api/197.json")
+let gyaradosCall = axios.get("https://fizal.me/pokeapi/api/130.json")
+
 function delayAxios(object,afterFunction){
-axios.all([ninetalesCall, garchompCall, tapuKokoCall])
+axios.all([ninetalesCall, garchompCall, tapuKokoCall,snorlaxCall,umbreonCall,gyaradosCall])
 .then(function (responses) {
     let ninetales = new Pokemon(responses[0].data)
-    pokemonTrainer.myPokemon.push(ninetales)
+    ZachTrainer.myPokemon.push(ninetales)
 
     let garchomp = new Pokemon(responses[1].data)
-    pokemonTrainer.myPokemon.push(garchomp)
+    ZachTrainer.myPokemon.push(garchomp)
 
     let tapuKoko = new Pokemon(responses[2].data)
-    pokemonTrainer.myPokemon.push(tapuKoko)
+    ZachTrainer.myPokemon.push(tapuKoko)
 
+    let snorlax=new Pokemon(responses[3].data)
+    KevinTrainer.myPokemon.push(snorlax)
+
+    let umbreon=new Pokemon(responses[4].data)
+    KevinTrainer.myPokemon.push(umbreon)
+
+    let gyrados=new Pokemon(responses[5].data)
+    KevinTrainer.myPokemon.push(gyrados)
 
     function changePhoto(pokemonName,type){
         myObject=pokemonName+"Object";
