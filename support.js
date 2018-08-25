@@ -64,8 +64,8 @@ axios.all([ninetalesCall, garchompCall, tapuKokoCall,snorlaxCall,umbreonCall,gya
     let umbreon=new Pokemon(responses[4].data)
     KevinTrainer.myPokemon.push(umbreon)
 
-    let gyrados=new Pokemon(responses[5].data)
-    KevinTrainer.myPokemon.push(gyrados)
+    let gyarados=new Pokemon(responses[5].data)
+    KevinTrainer.myPokemon.push(gyarados)
 
     function changePhoto(pokemonName,type){
         myObject=pokemonName+"Object";
