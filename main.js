@@ -7,10 +7,6 @@ class Gym{
 
 let pokemonGym=new Gym("Elite 2")
 
-let x = document.createElement("div")
-x.innerHTML = "hello"
-body.appendChild(x)
-
 
 function renderGym(){
     pokemonGym.trainers.push(ZachTrainer)
@@ -19,15 +15,10 @@ function renderGym(){
     //         var hp=document.createTextNode("Hp:"+pokemon.Hp)
     //         hpElement.appendChild(hp);
     // console.log(pokemonGym.trainers[0].all()[0])
-
-   
-    console.log(pokemonGym.trainers)
-}
-
     // console.log(pokemonGym.trainers)
     function displayStats(pokemon){
         let nameElement=document.createElement("li");
-        var name=document.createTextNode("Hp:"+pokemon.name)
+        var name=document.createTextNode("Name:"+pokemon.name)
         nameElement.appendChild(name);
         stats=document.getElementsByClassName("statsList")
         stats[0].innerHTML = " ";
@@ -76,11 +67,10 @@ function renderGym(){
     document.getElementById("button1").addEventListener("click", function(){displayStats((pokemonGym.trainers[0].myPokemon[0]))});
     document.getElementById("button2").addEventListener("click", function(){displayStats((pokemonGym.trainers[0].myPokemon[1]))});
     document.getElementById("button3").addEventListener("click", function(){displayStats((pokemonGym.trainers[0].myPokemon[2]))});
-    document.getElementById("button5").addEventListener("click", function(){displayStats((pokemonGym.trainers[1].myPokemon[0]))});
-    document.getElementById("button4").addEventListener("click", function(){displayStats((pokemonGym.trainers[1].myPokemon[1]))});
-    document.getElementById("button5").addEventListener("click", function(){displayStats((pokemonGym.trainers[1].myPokemon[2]))});
+    document.getElementById("button4").addEventListener("click", function(){displayStats((pokemonGym.trainers[1].myPokemon[0]))});
+    document.getElementById("button5").addEventListener("click", function(){displayStats((pokemonGym.trainers[1].myPokemon[1]))});
+    document.getElementById("button6").addEventListener("click", function(){displayStats((pokemonGym.trainers[1].myPokemon[2]))});
     }
-
 
 delayAxios(pokemonGym,renderGym)
 
