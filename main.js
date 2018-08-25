@@ -62,22 +62,31 @@ function renderGym(){
         stats=document.getElementsByClassName("statsList")
         stats[0].appendChild(Speed)
     }
-    myFunction()
+  
     // displayStats((pokemonGym.trainers[0].myPokemon[0]))
-    document.getElementById("button1").addEventListener("click", function(){displayStats((pokemonGym.trainers[0].myPokemon[0])),myFunction()});
-    document.getElementById("button2").addEventListener("click", function(){displayStats((pokemonGym.trainers[0].myPokemon[1]))});
-    document.getElementById("button3").addEventListener("click", function(){displayStats((pokemonGym.trainers[0].myPokemon[2]))});
-    document.getElementById("button4").addEventListener("click", function(){displayStats((pokemonGym.trainers[1].myPokemon[0]))});
-    document.getElementById("button5").addEventListener("click", function(){displayStats((pokemonGym.trainers[1].myPokemon[1]))});
-    document.getElementById("button6").addEventListener("click", function(){displayStats((pokemonGym.trainers[1].myPokemon[2]))});
-    function myFunction() {
-        var x = document.getElementsByClassName("card-panel");
-        if (x[0].style.display === "none") {
-            x[0].style.display = "block";
-        } else {
-            x[0].style.display = "none";
-        }
+    document.getElementById("button1").addEventListener("click", function(){displayStats((pokemonGym.trainers[0].myPokemon[0])),myFunction("ninetails")});
+    document.getElementById("button2").addEventListener("click", function(){displayStats((pokemonGym.trainers[0].myPokemon[1])),myFunction("garchomp")});
+    document.getElementById("button3").addEventListener("click", function(){displayStats((pokemonGym.trainers[0].myPokemon[2])),myFunction("tapu-koko")});
+    document.getElementById("button4").addEventListener("click", function(){displayStats((pokemonGym.trainers[1].myPokemon[0])),myFunction("snorlax")});
+    document.getElementById("button5").addEventListener("click", function(){displayStats((pokemonGym.trainers[1].myPokemon[1])),myFunction("umbreon")});
+    document.getElementById("button6").addEventListener("click", function(){displayStats((pokemonGym.trainers[1].myPokemon[2])),myFunction("gyarados")});
+    function myFunction(idname) {
+        var x = document.getElementById(idname);
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+            
+
+        
     }
+    myFunction("ninetails")
+    myFunction("garchomp")
+    myFunction("tapu-koku")
+    myFunction("snorlax")
+    myFunction("umbreon")
+    myFunction("gyarados")
 }
 
 delayAxios(pokemonGym,renderGym)
