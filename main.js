@@ -18,14 +18,14 @@ function renderGym(){
     // console.log(pokemonGym.trainers)
     function displayStats(pokemon){
         let nameElement=document.createElement("li");
-        var name=document.createTextNode("Name:"+pokemon.name)
+        var name=document.createTextNode("Name: "+pokemon.name)
         nameElement.appendChild(name);
         stats=document.getElementsByClassName("statsList")
         stats[0].innerHTML = " ";
         stats[0].appendChild(nameElement)
         /////Display HP
         let hpElement=document.createElement("li");
-        var hp=document.createTextNode("Hp:"+pokemon.Hp)
+        var hp=document.createTextNode("Hp: "+pokemon.Hp)
         hpElement.appendChild(hp);
         stats=document.getElementsByClassName("statsList")
         
@@ -33,44 +33,52 @@ function renderGym(){
         
         ////////display Attack Stats
         let AttackElement=document.createElement("li");
-        var Attack=document.createTextNode("Attack:"+pokemon.Attack)
+        var Attack=document.createTextNode("Attack: "+pokemon.Attack)
         AttackElement.appendChild(Attack);
         stats=document.getElementsByClassName("statsList");
         stats[0].appendChild(AttackElement)
         ////display Defense stats
         let DefenseElement=document.createElement("li");
-        var Defense=document.createTextNode("Defense:"+pokemon.Defense)
+        var Defense=document.createTextNode("Defense: "+pokemon.Defense)
         DefenseElement.appendChild(Defense);
         stats=document.getElementsByClassName("statsList")
         stats[0].appendChild(DefenseElement)
         ////display Special Attack stats
         let SpecialAttackElement=document.createElement("li");
-        var SpecialAttack=document.createTextNode("SpecialAttack:"+pokemon.SpecialAttack)
+        var SpecialAttack=document.createTextNode("SpecialAttack: "+pokemon.SpecialAttack)
         SpecialAttackElement.appendChild(SpecialAttack);
         stats=document.getElementsByClassName("statsList")
         stats[0].appendChild(SpecialAttackElement)
         ////display Special Defense stats
         let SpecialDefenseElement=document.createElement("li");
-        var SpecialDefense=document.createTextNode("SpecialDefense:"+pokemon.SpecialDefense)
+        var SpecialDefense=document.createTextNode("SpecialDefense: "+pokemon.SpecialDefense)
         SpecialDefenseElement.appendChild(SpecialDefense);
         stats=document.getElementsByClassName("statsList")
         stats[0].appendChild(SpecialDefenseElement)
         ////display Speed stats
         let SpeedElement=document.createElement("li");
-        var Speed=document.createTextNode("Speed:"+pokemon.Speed)
+        var Speed=document.createTextNode("Speed: "+pokemon.Speed)
         SpeedElement.appendChild(Speed);
         stats=document.getElementsByClassName("statsList")
         stats[0].appendChild(Speed)
     }
-    
-    displayStats((pokemonGym.trainers[0].myPokemon[0]))
-    document.getElementById("button1").addEventListener("click", function(){displayStats((pokemonGym.trainers[0].myPokemon[0]))});
+    myFunction()
+    // displayStats((pokemonGym.trainers[0].myPokemon[0]))
+    document.getElementById("button1").addEventListener("click", function(){displayStats((pokemonGym.trainers[0].myPokemon[0])),myFunction()});
     document.getElementById("button2").addEventListener("click", function(){displayStats((pokemonGym.trainers[0].myPokemon[1]))});
     document.getElementById("button3").addEventListener("click", function(){displayStats((pokemonGym.trainers[0].myPokemon[2]))});
     document.getElementById("button4").addEventListener("click", function(){displayStats((pokemonGym.trainers[1].myPokemon[0]))});
     document.getElementById("button5").addEventListener("click", function(){displayStats((pokemonGym.trainers[1].myPokemon[1]))});
     document.getElementById("button6").addEventListener("click", function(){displayStats((pokemonGym.trainers[1].myPokemon[2]))});
+    function myFunction() {
+        var x = document.getElementsByClassName("card-panel");
+        if (x[0].style.display === "none") {
+            x[0].style.display = "block";
+        } else {
+            x[0].style.display = "none";
+        }
     }
+}
 
 delayAxios(pokemonGym,renderGym)
 
