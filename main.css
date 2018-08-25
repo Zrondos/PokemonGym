@@ -1,8 +1,8 @@
-body {
-    background-image: url("Assets/backgroundimage3.gif");
-    background-repeat: no-repeat;
-    background-size: cover; 
-}
+/* body { */
+    /* background-image: url("Assets/backgroundimage3.gif"); */
+    /* background-repeat: no-repeat;
+    /* background-size: cover;  */
+/* }  */
 
 .statsTitle{
     font-size:20px;
@@ -13,3 +13,14 @@ body {
     font-size: 100px;
     color: teal;
 }
+.statsList{
+    background-color: white;
+    width: 140px;
+    height: 200px;
+    border: 1px solid black ;
+}
+
+.btn{
+  background-color: white;
+}
+
