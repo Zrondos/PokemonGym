@@ -11,6 +11,22 @@ let pokemonGym=new Gym("Elite 2")
 function renderGym(){
     pokemonGym.trainers.push(ZachTrainer)
     pokemonGym.trainers.push(KevinTrainer)
+
+    function swapImage(id){
+        let primary = "https://media.giphy.com/media/qSrK4HvZyLMJi/giphy.gif"
+        let secondary = "https://t00.deviantart.net/8dwdVgcfgJiSvbW_2kBDU95whPk=/fit-in/150x150/filters:no_upscale():origin()/pre00/74d6/th/pre/f/2013/104/9/6/untitled_drawing_by_amaneyara-d61qadm.png"
+        document.getElementById(id).src;
+        if (document.getElementById(id).src == primary) {
+          document.getElementById(id).src=secondary;
+          document.getElementById(id).style.width = "70px";
+        } else {
+          document.getElementById(id).src=primary;
+          document.getElementById(id).style.width = "50px";
+        }
+        
+      }
+
+   
      
     // let hpElement=document.createElement("li");
     //         var hp=document.createTextNode("Hp:"+pokemon.Hp)
@@ -20,9 +36,9 @@ function renderGym(){
     function displayStats(pokemon, idname, imagesrc){
             var x = document.getElementById(idname);
             if (x.style.display === "none") {
-                x.style.display = "block";
-            } else {
                 x.style.display = "none";
+            } else {
+                x.style.display = "block";
             }
         let ul = document.createElement("ul")
         let nameElement=document.createElement("li");
@@ -85,6 +101,7 @@ function renderGym(){
         img.setAttribute("class", "col s6");
         stats.appendChild(img);
 
+        
 
         /////Display HP
         // let hpElement=document.createElement("li");
@@ -135,18 +152,21 @@ function renderGym(){
     let snorlaximg = "https://pa1.narvii.com/6464/eeb6c7a0189e04d1444e8c40e598f3d56390bb32_128.gif"
     let umbreonimg = "https://veekun.com/dex/media/pokemon/conquest/197.png"
     let gyaradosimg = "https://cdn.bulbagarden.net/upload/9/9d/PCP130.png"
+    
     document.getElementById("button1").addEventListener("click", function(){displayStats(pokemonGym.trainers[0].myPokemon[0],"ninetails",ninetailsimg)});
     document.getElementById("button2").addEventListener("click", function(){displayStats(pokemonGym.trainers[0].myPokemon[1],"garchomp",garchompimg)});
     document.getElementById("button3").addEventListener("click", function(){displayStats(pokemonGym.trainers[0].myPokemon[2],"tapu-koko",tapukokoimg)});
     document.getElementById("button4").addEventListener("click", function(){displayStats(pokemonGym.trainers[1].myPokemon[0],"snorlax",snorlaximg)});
     document.getElementById("button5").addEventListener("click", function(){displayStats(pokemonGym.trainers[1].myPokemon[1],"umbreon",umbreonimg)});
     document.getElementById("button6").addEventListener("click", function(){displayStats(pokemonGym.trainers[1].myPokemon[2],"gyarados",gyaradosimg)});
-    // myFunction("ninetails")
-    // myFunction("garchomp")
-    // myFunction("tapu-koku")
-    // myFunction("snorlax")
-    // myFunction("umbreon")
-    // myFunction("gyarados")
+    
+
+    document.getElementById("button1").addEventListener("click", function(){swapImage("pokeball1")});
+    document.getElementById("button2").addEventListener("click", function(){swapImage("pokeball2")});
+    document.getElementById("button3").addEventListener("click", function(){swapImage("pokeball3")});
+    document.getElementById("button4").addEventListener("click", function(){swapImage("pokeball4")});
+    document.getElementById("button5").addEventListener("click", function(){swapImage("pokeball5")});
+    document.getElementById("button6").addEventListener("click", function(){swapImage("pokeball6")});
 }
 
 delayAxios(pokemonGym,renderGym)
@@ -231,7 +251,6 @@ delayAxios(pokemonGym,renderGym)
 //     pokemonGym.trainers.push(trainer2)
 // }
 //     )
-
 
 
 
