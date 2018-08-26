@@ -35,7 +35,7 @@ function renderGym(){
     // console.log(pokemonGym.trainers)
     function displayStats(pokemon, idname, imagesrc){
             var x = document.getElementById(idname);
-            if (x.style.display === "none") {
+            if (x.style.display == "block") {
                 x.style.display = "none";
             } else {
                 x.style.display = "block";
