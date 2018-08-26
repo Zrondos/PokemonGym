@@ -26,13 +26,6 @@ function renderGym(){
         
       }
 
-   
-     
-    // let hpElement=document.createElement("li");
-    //         var hp=document.createTextNode("Hp:"+pokemon.Hp)
-    //         hpElement.appendChild(hp);
-    // console.log(pokemonGym.trainers[0].all()[0])
-    // console.log(pokemonGym.trainers)
     function displayStats(pokemon, idname, imagesrc){
             var x = document.getElementById(idname);
             if (x.style.display == "block") {
